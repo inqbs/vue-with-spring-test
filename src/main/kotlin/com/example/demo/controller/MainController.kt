@@ -11,7 +11,7 @@ import kotlin.random.Random
 @Controller
 class MainController {
 
-    @GetMapping("/")
+    @GetMapping({"/","/about","/test"})
     fun main(): String {
         return "index"
     }

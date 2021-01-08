@@ -3,8 +3,6 @@
     <p>This is test page. Result is {{value}}</p>
     <p><time :datetime="date">{{date}}</time></p>
     <p><button @click="changeValue">changeValue</button></p>
-    axios
-    follow-redirects
   </div>
 </template>
 
